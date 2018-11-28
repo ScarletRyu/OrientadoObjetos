@@ -4,7 +4,7 @@ public class Constructor3 {
 
 	
 		//Declaramos los atributos
-		public String Nombre;
+		private String Nombre;
 		private String Dni;
 		private int Edad;
 		private String Descripcion;
@@ -17,11 +17,12 @@ public class Constructor3 {
 			Nombre = "Nombre";
 			Edad = E;
 			
+			
 		
 		}
 			
 		
-		//Metodos
+				//Metodos
 		
 		
 				//Introducir DNI de la persona
@@ -49,7 +50,52 @@ public class Constructor3 {
 					
 					
 				}
+
+
+				
+				/* 
+				 * GETTERS AND SETETRS 
+				 */
+				
+				public String getNombre() {
+					return Nombre;
+				}
+
+
+				public void setNombre(String nombre) {
+					Nombre = nombre;
+				}
+
+
+				public String getDni() {
+					return Dni;
+				}
+
+
+				public void setDni(String dni) {
+					Dni = dni;
+				}
+
+
+				public int getEdad() {
+					return Edad;
+				}
+
+
+				public void setEdad(int edad) {
+					Edad = edad;
+				}
+
+
+				public String getDescripcion() {
+					return Descripcion;
+				}
+
+
+				public void setDescripcion(String descripcion) {
+					Descripcion = descripcion;
+				}
 		
-		
+				
 		
 		}
