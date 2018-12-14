@@ -46,9 +46,6 @@ public class Nif {
     }
 		
 	
-	
-	
-	
 	//Getters & Setters
 	public int getDNI() {
 		return DNI;

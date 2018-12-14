@@ -7,8 +7,7 @@ public class ProbarNif {
 	        nif1.Leer();
 	        System.out.println(nif1);
 
-	        Nif nif2 = new Nif(12345678);
-	        System.out.println(nif2);
+	        
 
 	    }
 	}	
